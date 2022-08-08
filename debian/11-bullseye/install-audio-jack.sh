@@ -91,22 +91,22 @@ sudo apt update
 # ---------------------------
 # Install Bitwig
 # ---------------------------
-notify "Install Bitwig"
-wget -O bitwig.deb https://downloads.bitwig.com/4.2.3/bitwig-studio-4.2.3.deb
-sudo apt install ./bitwig.deb -y
-rm bitwig.deb
+# notify "Install Bitwig"
+# wget -O bitwig.deb https://downloads.bitwig.com/4.2.3/bitwig-studio-4.2.3.deb
+# sudo apt install ./bitwig.deb -y
+# rm bitwig.deb
 
 
 # ---------------------------
 # Install Reaper
 # ---------------------------
-notify "Install Reaper"
-wget -O reaper.tar.xz http://reaper.fm/files/6.x/reaper658_linux_x86_64.tar.xz
-mkdir ./reaper
-tar -C ./reaper -xf reaper.tar.xz
-sudo ./reaper/reaper_linux_x86_64/install-reaper.sh --install /opt --integrate-desktop --usr-local-bin-symlink
-rm -rf ./reaper
-rm reaper.tar.xz
+# notify "Install Reaper"
+# wget -O reaper.tar.xz http://reaper.fm/files/6.x/reaper658_linux_x86_64.tar.xz
+# mkdir ./reaper
+# tar -C ./reaper -xf reaper.tar.xz
+# sudo ./reaper/reaper_linux_x86_64/install-reaper.sh --install /opt --integrate-desktop --usr-local-bin-symlink
+# rm -rf ./reaper
+# rm reaper.tar.xz
 
 
 # ---------------------------
